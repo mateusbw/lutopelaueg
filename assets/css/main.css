@@ -1,89 +1,92 @@
-body{
-    background-color: #1d1d1d;
+body {
+  background-color: #1d1d1d;
 }
-.banner{
-    width: 100%;
-    height: 100vh;
-    
-    background-image: url(../img/banner.jpg);
-  
+.banner {
+  width: 100%;
+  height: 100vh;
+
+  background-image: url(../img/banner.jpg);
+
   /* Background image is centered vertically and horizontally at all times */
   background-position: center center;
-  
+
   /* Background image doesn't tile */
   background-repeat: no-repeat;
-  
+
   /* Background image is fixed in the viewport so that it doesn't move when 
      the content's height is greater than the image's height */
   background-attachment: fixed;
-  
+
   /* This is what makes the background image rescale based
      on the container's size */
   background-size: cover;
-  
+
   /* Set a background color that will be displayed
      while the background image is loading */
   background-color: #1d1d1d;
 }
-.h-100{
-    height: 100%;
+.h-100 {
+  height: 100%;
 }
 
-.title-banner{
-    font-weight: bold;
-    font-size: 5.5em;
+.title-banner {
+  font-weight: bold;
+  font-size: 5.5em;
 }
 
-h1{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+h1 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
-h2{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+h2 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
-h3{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+h3 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
-h4{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+h4 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
-h5{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
+h5 {
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
-p{
-    font-family: 'Montserrat', sans-serif;
-    color: white;
-}
-
-
-.text-color-red{
-    color: #f33d3d;
+p {
+  font-family: "Montserrat", sans-serif;
+  color: white;
 }
 
-.red-background{
-    background-color: #f33d3d
+.text-color-red {
+  color: #f33d3d;
 }
 
-.arrow{
-    position: absolute;
-    bottom: 5px;
-    left: 50%;
+.red-background {
+  background-color: #f33d3d;
 }
 
-p{
-    font-size: 1em;
+.arrow {
+  position: absolute;
+  bottom: 5px;
+  left: 50%;
 }
+
+p {
+  font-size: 1em;
+}
+
 @media screen and (max-width: 576px) {
-    p{
-      font-size: 1.2em;
-      text-align: center
-    }
-
-    .card{
-        min-width: 70%;
-    }
+  body {
+    text-align: center;
   }
+  p {
+    font-size: 1.2em;
+    text-align: center;
+  }
+
+  .card {
+    min-width: 70%;
+  }
+}
