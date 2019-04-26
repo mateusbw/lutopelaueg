@@ -89,4 +89,8 @@ p {
   .card {
     min-width: 70%;
   }
+
+  .contribuition {
+    padding: 1.25rem 0;
+  }
 }
